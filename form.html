@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="form.html">Form</a></li>
+              <li><a href="semantic.html">Sementic</a></li>
+              <li><a href="table.html">Table</a></li>
+              <li><a href="audio-video.html">Audio-video</a></li>
+          </ul>  
+        </nav>
+    </header>
+   <h1>Welcome to our form</h1>
+    <h1>form input lable fieldset legend textarea submit</h1>
+    <form action="">
+        <p>name: <input type="text" name="name" placeholder="enter your name" id=""></p>
+        <p>email: <input type="text" name="email" placeholder="enter your email" id=""></p>
+        <fieldset>
+            <legend>Select one</legend>
+            <p>
+                <label for="red"><input type="radio" name="color" id="red">red</label>
+            </p>
+            <p>
+                <label for="blue"><input type="radio" name="color" id="blue">blue</label>
+            </p>
+            <p>
+                <label for="yellow"><input type="radio" name="color" id="yellow">yellow</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>select one more</legend>
+            <p><label for="rose"><input type="checkbox" name="flower" id="rose">Rose</label></p>
+            <p><label for="lily"><input type="checkbox" name="flower" id="lily">Water Lily</label></p>
+            <p><label for="crose"><input type="checkbox" name="flower" id="crose">China Rose</label></p>
+        </fieldset>
+        <p>Write your comment <br>
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

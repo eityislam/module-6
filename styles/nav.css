@@ -1,0 +1,26 @@
+nav > ul{    /*jara sorasori sontan tara sudu flex hobe*/
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 3px 7px;
+}
+nav li:hover{
+    background-color: blueviolet;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: cadetblue;
+    padding: 0;
+}
